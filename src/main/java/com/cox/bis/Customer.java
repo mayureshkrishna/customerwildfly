@@ -30,7 +30,7 @@ import org.springframework.stereotype.Component;
 public class Customer extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(Customer.class, args);
     }
 
     @Bean
