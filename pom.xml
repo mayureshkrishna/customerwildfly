@@ -11,7 +11,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.3.3.RELEASE</version>
+		<version>1.4.2.RELEASE</version>
 	</parent>
 
 	 <!-- import Spring-Boot and Camel BOM -->
@@ -20,7 +20,7 @@
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
-        <version>1.3.3.RELEASE</version>
+		<version>1.4.2.RELEASE</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -46,7 +46,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		
+		<version>1.4.2.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
